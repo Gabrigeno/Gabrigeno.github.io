@@ -3,6 +3,7 @@ title = "Gitea Stack — self-hosted Git with CI/CD"
 date = "2026-07-10"
 author = "Gabriele Genovesi"
 tags = ["self-hosted", "docker", "ci-cd"]
+draft = true
 +++
 
 Docker Compose setup for a complete self-hosted [Gitea](https://gitea.com) instance:

@@ -2,4 +2,4 @@
 title = "Projects"
 +++
 
-Things I build and maintain.
+<!-- Things I build and maintain. -->

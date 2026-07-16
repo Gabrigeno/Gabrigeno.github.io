@@ -4,7 +4,9 @@ menu = "main"
 weight = 20
 +++
 
+<!--
 This page is a little experiment born out of my passion for cryptography: a hands-on way to see how **symmetric encryption** works. Symmetric means the *same key* both encrypts and decrypts — whoever holds the key can read the message, whoever doesn't sees only random bytes.
+-->
 
 <style>
   .fernet-tool label { display: block; margin-top: 1rem; font-weight: bold; color: var(--off-fg); }
@@ -46,8 +48,10 @@ This page is a little experiment born out of my passion for cryptography: a hand
 <script src="/js/fernet.js"></script>
 <script src="/js/encrypt-page.js"></script>
 
+<!--
 Here I use [Fernet](https://cryptography.io/en/latest/fernet/) (besides being the best amaro), a recipe that combines AES-128-CBC (confidentiality) with HMAC-SHA256 (integrity: a tampered token or a wrong key is detected before anything is decrypted). Everything runs locally in your browser through the native Web Crypto API: the key and the text **never leave this page, nothing is sent to any server, so the site cannot see anything, and the browser stores nothing** (no cookies, no local storage). Close the tab and it's all gone.
 
 For Dev/IT users:
 
 the tokens are fully compatible with Python's `cryptography.fernet`, so you can encrypt here and decrypt in a script, or vice versa. One rule of symmetric crypto applies in full: lose the key, lose the message.
+-->

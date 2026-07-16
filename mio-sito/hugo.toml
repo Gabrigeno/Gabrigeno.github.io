@@ -17,7 +17,7 @@ palette = "base16-dark"
 
 [params.about]
 title = "Gabriele Genovesi"
-description = "Notes, projects and experiments."
+# description = "Notes, projects and experiments."
 logo = "🍚"
 
 [[params.socialLinks]]
