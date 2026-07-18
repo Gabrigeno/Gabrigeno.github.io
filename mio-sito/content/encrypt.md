@@ -8,6 +8,8 @@ weight = 20
 This page is a little experiment born out of my passion for cryptography: a hands-on way to see how **symmetric encryption** works. Symmetric means the *same key* both encrypts and decrypts — whoever holds the key can read the message, whoever doesn't sees only random bytes.
 -->
 
+This page use simmetric encryptioon by [Fernet](https://cryptography.io/en/latest/fernet/) 
+
 <style>
   .fernet-tool label { display: block; margin-top: 1rem; font-weight: bold; color: var(--off-fg); }
   .fernet-tool input, .fernet-tool textarea {
